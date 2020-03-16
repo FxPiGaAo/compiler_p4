@@ -1,0 +1,74 @@
+struct isca {bool hpca;int cal;};
+struct micro{struct isca asplos;};
+struct nocs{struct micro cal;};
+bool g(int x, int b, int c){
+    bool a;
+    return a||b;
+}
+void func(int isca){
+    return isca;
+}
+void empty_para(){return;}
+void f(int x, bool b, int c) {           
+    int a;
+    bool y;
+    struct isca i;
+    struct micro m;
+    struct nocs n;
+    n.cal.asplos.cal++;
+    f();
+    empty_para();
+    a++;
+    if(y==true){
+        bool a;
+        y=true;
+        a=true;
+        i=m;
+    }
+    if(a==1){
+        bool a;
+        y=true;
+        a=true;
+        i=m;
+    }else{
+        bool b;
+        b=true;
+        a=true;
+        i.hpca=m.asplos;
+    }
+    while(y){int i;if(i==0){return;}}
+    repeat(y){int i;if(i==0){return;}}
+    return g(a,y,i);
+    a++;
+    a--;
+    n++;
+    cin >> a;
+    return;
+    return a;
+    cout << a;
+    a = 1;
+    i.hpca = "best paper award!";
+    y = true;
+    y = false;
+    i = m;
+    y = i.hpca;
+    i.hpca = m.asplos.hpca;
+    c = a + (x + x);
+    c = a + x;
+    c = a - x;
+    c = a * x;
+    c = a / x;
+    c = a && x;
+    c = a || x;
+    c = a == x;
+    c = a != x;
+    c = a < x;
+    c = a > x;
+    c = a <= x;
+    c = a >= x;
+    y = !b;
+    c = -a;
+    a = y;
+    x = a;
+    y = x;
+}

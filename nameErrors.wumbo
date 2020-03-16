@@ -1,0 +1,33 @@
+void illegalvar;
+int illegalvar;
+int illegalvar(){}
+int a;
+struct a{int m;};
+int b(){}
+struct b{int k;};
+struct c{int a;bool a;};
+struct c{int a;};
+int c;
+struct d{int a;};
+void d(){return;}
+void name(int a, bool a){}
+bool name(bool k){}
+struct right{int i;struct right_son son;};
+struct right_son{int j;};
+int func(int a, bool b, int c, int future_undec){
+    int b;
+    int k;
+    int k;
+    bool a;
+    undeclared++;
+    return a+b+c;
+}
+void func_test_undec(void i){
+    int invalid_struct;
+    struct right init;
+    struct invalid_struct_type tom;
+    init.j++;
+    init.i.j++;
+    invalid_struct.i++;
+    return future_undec;
+}
